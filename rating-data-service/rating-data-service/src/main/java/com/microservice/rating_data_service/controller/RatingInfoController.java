@@ -22,8 +22,8 @@ public class RatingInfoController {
     @GetMapping("/user/{userId}")
     public UserRating getMovies(@PathVariable String userId) {
         List<Rating> ratings = Arrays.asList(
-                new Rating("1234",4),
-                new Rating("5678",5)
+                new Rating("tt3896198",4),
+                new Rating("102",5)
         );
         UserRating userRating = new UserRating();
         userRating.setRatings(ratings);
